@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+
+.box {
+    margin: 120px auto;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mensagem__protocolo {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    height: 100px;
+    background-color: #34343477;
+    align-items: flex-end;
+}
+
+p {
+    margin: 0 auto;
+    color: #feda4a;
+    font-size: 18px;
+    padding: 15px 0;
+    text-align: center;
+}

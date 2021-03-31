@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
 
 
-.box {
+.img__airbus {
     margin: 120px auto;
     width: 50%;
     height: 40%;
@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.mensagem__protocolo {
+.mensagem__airbus {
     margin: 0 auto;
     padding: 20px;
     width: 80%;

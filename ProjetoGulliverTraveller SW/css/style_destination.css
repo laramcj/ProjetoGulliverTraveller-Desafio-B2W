@@ -40,20 +40,19 @@
     position: absolute;
     bottom: 200px;
     left: 50px;
-    /* border-radius: 12px 12px 0 0; */
     width: 20px;
     height: 0px;
 
     transition: 0.5s height;
 }
 
-.box_destination img#europe:hover~.container_plasma {
+.box_destination img#asia:hover~.container_plasma {
     height: 70px;
     background: #d69577;
     box-shadow: 0px 0px 20px #d69577;
 }
 
-.box_destination img#america:hover~.container_plasma {
+.box_destination img#europe:hover~.container_plasma {
     height: 70px;
     background: #1e7e70;
     box-shadow: 0px 0px 20px #1e7e70;

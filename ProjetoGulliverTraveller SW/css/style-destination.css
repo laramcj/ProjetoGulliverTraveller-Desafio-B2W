@@ -13,7 +13,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;   
+    width: 100%;
+    min-height: calc(100vh - 50px) ;  
+    background-color: #ffebb808
 }
 
 .box_destination {
@@ -46,19 +48,19 @@
     transition: 0.5s height;
 }
 
-.box_destination img#asia:hover~.container_plasma {
+.box_destination img#rosa:hover~.container_plasma {
     height: 70px;
     background: #d69577;
     box-shadow: 0px 0px 20px #d69577;
 }
 
-.box_destination img#europe:hover~.container_plasma {
+.box_destination img#azul:hover~.container_plasma {
     height: 70px;
     background: #1e7e70;
     box-shadow: 0px 0px 20px #1e7e70;
 }
 
-.box_destination img#oriente:hover~.container_plasma {
+.box_destination img#laranja:hover~.container_plasma {
     height: 70px;
     background:  #d04528;
     box-shadow: 0px 0px 20px #d04528;

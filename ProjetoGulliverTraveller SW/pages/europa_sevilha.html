@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../assets/css/style-laris.css">
+    <link rel="shortcut icon" href="../img/favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <title>Desafio B2W - Projeto Traveller</title>
 </head>
 
@@ -13,29 +15,27 @@
 
     <!-- MENU -->
 
-    <nav class="menu_home">
-        <div class="logo">
-            <p><a class="menu_link" href="./index.html">Projeto Traveller</a></p>
-        </div>
-        <ul class="menu_options">
-            <li><a class="menu_link" href="">Home</a></li>
-            <li><a class="menu_link" href="">Destino</a></li>
-            <li><a class="menu_link" href="">Contato</a></li>
+    <nav class="menu">
+        <ul>
+            <a href="./index.html" class="logo">Projeto Traveller</a>
+            <li><a href="./index.html"><i class="fas fa-envelope-open-text icon"></i>Contato</a></li>
+            <li><a href="#"><i class="fas fa-map-signs icon"></i>Destinos</a></li>
         </ul>
     </nav>
+    </div>
 
 
     <!-- DESTINO - SEVILHA -->
     <div class="container_destino">
         <div class="box_images">
             <p>
-                <img src="./images/image_plaza_espana.jpg" alt="Plaza del España" width=425 height=240>
+                <img src="../assets/images/image_plaza_espana.jpg" alt="Plaza del España" width=425 height=240>
             </p>
             <p> 
-                <img src="./images/image_plaza_espana_leia.jpg" alt="Star Wars en Plaza del España" width=425 height=240>
+                <img src="../assets/images/image_plaza_espana_leia.jpg" alt="Star Wars em Plaza del España" width=425 height=240>
             </p>
         </div>
-        <div class="box_text">
+        <div class="box_text_europa">
                 <h2 class="title">Sevilha - Espanha</h2>
             <div class="content">
                 <div class="general_content">Sua primeira atividade será na Plaza de España em Sevilha. Um dos pontos turísticos mais famosos dessa cidade, a praça de dimensões surpreendentes e arquitetura mista surpreende a todos de forma acolhedora e não a toa foi o cenário perfeito para Padme, Anakin e R2D2 darem uma voltinha em Ataque dos Clones, na então cidade de Theed, no planeta Naboo.</div>
@@ -48,22 +48,22 @@
 
     <div class="foot">
 
-        <div class="lightsaber_left">
-            <img src="https://raw.githubusercontent.com/laramcj/ProjetoGulliverTraveller-Desafio-B2W/main/ProjetoGulliverTraveller%20SW/images/sabreluzesquerda.png" alt="" id="luke">
-            <div class="plasma" id="luke"></div>
-        </div>
-
-        <div class="back">
-            <p>Anterior</p>
-        </div>
-        
         <div class="lightsaber_right">
             <img src="https://raw.githubusercontent.com/laramcj/ProjetoGulliverTraveller-Desafio-B2W/main/ProjetoGulliverTraveller%20SW/images/sabreluzdireita.png" id="vader">
             <div class="plasma" id="vader"></div>
         </div>
 
+        <div class="back">
+            <a class="back_link" href="">Anterior</a>
+        </div>
+
+        <div class="lightsaber_left">
+            <img src="https://raw.githubusercontent.com/laramcj/ProjetoGulliverTraveller-Desafio-B2W/main/ProjetoGulliverTraveller%20SW/images/sabreluzesquerda.png" alt="" id="luke">
+            <div class="plasma" id="luke"></div>
+        </div>
+
         <div class="forward">
-            <p>Próximo</p>
+            <a class="forward_link" href="../pages/europa_irlanda.html">Próximo</a>
         </div>
 
 </body>

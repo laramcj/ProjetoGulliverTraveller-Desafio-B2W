@@ -1,4 +1,3 @@
-
 /* FOOT DA PÁGINA */
 
 .foot {
@@ -43,6 +42,19 @@
 
 .back{
     margin: 0 0 0 20px;
+    z-index: 8;
+}
+
+.back_link{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.back:hover{
+    cursor: pointer;
+    color: #FDE806;
+    text-shadow: 0 0 5px #FDE806, 0 0 25px #FDE806, 0 0 50px #FDE806;
+    transition: all 0.5s ease-in-out;
 }
 
 .lightsaber_left {
@@ -78,4 +90,17 @@
 
 .forward{
     margin: 0 20px 0 0;
+    z-index: 9;
+}
+
+.forward_link{
+    text-decoration: none;
+    color: white;
+}
+
+.forward:hover{
+    cursor: pointer;
+    color: #FDE806;
+    text-shadow: 0 0 5px #FDE806, 0 0 25px #FDE806, 0 0 50px #FDE806;
+    transition: all 0.5s ease-in-out;
 }

@@ -13,7 +13,7 @@ body {
 
 /* MENU */
 
-.logo {
+/* .logo {
     font-size: 26px;
     color: #f1f1f1;
     text-decoration: none;
@@ -28,8 +28,8 @@ body {
     background-color: rgb(41, 41, 41);
     border-bottom: 1px solid #f1f1f188;
     list-style: none;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -63,7 +63,7 @@ body {
     color: #f1f1f1;
     font-size: 16px;
     padding-right: 10px;
-}
+} */
 
 
 /* CONTEÚDO DA PÁGINA */
@@ -71,7 +71,7 @@ body {
 .container_destino{
     background-color: #ffebb808;
     width: 100%;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 140px);
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -122,7 +122,7 @@ body {
 
 .title{
     color: white;
-    margin-top: 25px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -149,7 +149,7 @@ body {
 /* PÁGINA CONTATO */
 
 .container_contato {
-    height: calc(100vh - 40px);
+    height: calc(100vh - 100px);
     display: flex;
     flex-direction: row;
     align-items: center;

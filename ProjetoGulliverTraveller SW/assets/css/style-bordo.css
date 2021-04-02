@@ -16,8 +16,8 @@ body {
 
 .img__airbus {
     margin: 40px auto;
-    width: 50%;
-    height: 300px;
+    width: 80%;
+    height: 350px ;
     display: flex;
     justify-content: space-around;
     align-items: center;

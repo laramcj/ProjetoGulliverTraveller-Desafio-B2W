@@ -24,6 +24,7 @@ body {
     color: #f8db64;
     background-color: #ffebb808;
     text-align: justify;
+    position: absolute;
 }
 
 .consultora img {

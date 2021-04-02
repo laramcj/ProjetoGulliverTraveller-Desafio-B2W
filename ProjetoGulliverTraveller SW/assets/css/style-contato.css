@@ -7,6 +7,8 @@
     justify-content: center;
     font-family: 'Carrois Gothic SC', sans-serif;
     width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .form-box {

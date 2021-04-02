@@ -12,6 +12,7 @@ body {
     height: 100%;
     display: block;
     align-content: center;
+    position: absolute;
 }
 
 .box__protocolo {

@@ -1,34 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
 /* PÁGINA CONTATO */
 .container_contato {
-    height: calc(100vh - 100px);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    width: 100%;
 }
 
-.login-box {
-    margin-right: 100px;
-    width: 400px;
+.form-box {
+    margin: 20px 50px;
+    width: 40%;
     padding: 40px;
     background: rgba(53, 52, 51, 0.5);
-    box-sizing: border-box;
     border-radius: 10px;
 }
 
-.login-box h2 {
+.form-box h2 {
     margin: 0 30px 45px 30px;
     padding: 0;
     color: #fff;
     text-align: center;
 }
 
-.login-box .user-box {
+.form-box .user-box {
     position: relative;
 }
 
-.login-box .user-box input {
+.form-box .user-box input {
     width: 100%;
     padding: 12px 0px 5px 0px;
     font-size: 16px;
@@ -40,7 +40,7 @@
     background: transparent;
 }
 
-.login-box .user-box label {
+.form-box .user-box label {
     position: absolute;
     top: 0;
     left: 0;
@@ -51,8 +51,8 @@
     transition: 0.5s;
 }
 
-.login-box .user-box input:focus~label,
-.login-box .user-box input:valid~label {
+.form-box .user-box input:focus~label,
+.form-box .user-box input:valid~label {
     top: -20px;
     left: 0;
     color: white;
@@ -75,7 +75,7 @@ textarea {
     color: #242322;
 }
 
-.login-box form a {
+.form-box form a {
     position: relative;
     display: inline-block;
     padding: 10px 25px;
@@ -88,18 +88,18 @@ textarea {
     letter-spacing: 2px;
 }
 
-.login-box a:hover {
+.form-box a:hover {
     background: #ffee00ce;
     color: #fff;
     box-shadow: 0 0 5px #ffee00be, 0 0 25px #ffee00be, 0 0 50px #ffee00be;
 }
 
-.login-box a span {
+.form-box a span {
     position: absolute;
     display: block;
 }
 
-.login-box a span:nth-child(1) {
+.form-box a span:nth-child(1) {
     top: 0;
     left: -100%;
     width: 100%;
@@ -119,7 +119,7 @@ textarea {
     }
 }
 
-.login-box a span:nth-child(2) {
+.form-box a span:nth-child(2) {
     top: -100%;
     right: 0;
     width: 2px;
@@ -140,7 +140,7 @@ textarea {
     }
 }
 
-.login-box a span:nth-child(3) {
+.form-box a span:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -161,7 +161,7 @@ textarea {
     }
 }
 
-.login-box a span:nth-child(4) {
+.form-box a span:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
@@ -184,7 +184,7 @@ textarea {
 
 .contato {
     color: white;
-    width: 450px;
+    width: 40%;
     padding: 40px;
     background: rgba(53, 52, 51, 0.5);
     box-sizing: border-box;

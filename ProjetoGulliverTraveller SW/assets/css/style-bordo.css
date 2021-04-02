@@ -10,20 +10,20 @@ body {
 
 .back__bordo {
     width: 100%;
-    height: calc(100vh - 140px);
+    height: calc(100% - 140px);
 }
 
 .img__airbus {
     margin: 40px auto;
     width: 50%;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .mensagem__airbus {
-    margin: 0 auto 35px auto;
+    margin: 10px auto 35px auto;
     padding: 10px;
     width: 80%;
     height: 80px;

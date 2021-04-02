@@ -2,23 +2,19 @@
 
 /* PÁGINA DESTINOS */
 
-body {
-    font-family: 'Carrois Gothic SC', sans-serif;
-    background-color: #040404;
-}
 
 .container_destination {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: calc(100vh - 60px);
+    max-height: calc(100% - 50px);
     background-color: #ffebb808;
 }
 
 .box_destination {
     position: relative;
-    margin: 100px 20px 0 20px;
+    margin: 50px 20px 50px 20px;
 }
 
 .box_destination_text {

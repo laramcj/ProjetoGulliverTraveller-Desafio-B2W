@@ -8,10 +8,11 @@
     align-items: center;
     justify-content: space-between;
     color: white;
+    background-color: black;
 }
 
 .lightsaber_right {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     left: 0;
     margin-top: 100px;
@@ -34,23 +35,40 @@
     transition: 0.5s width;
 }
 
-.lightsaber_right img#vader:hover ~.plasma {
+.lightsaber_right img#vader:hover~.plasma {
     width: 250px;
     background: #ff0000;
     box-shadow: 0px 0px 20px #ff0000;
 }
 
-.back{
-    margin: 0 0 0 20px;
+.back {
+    margin: 0 1330px 0 0;
     z-index: 8;
 }
 
-.back_link{
+.back_destino {
+    margin: 0 1250px 0 0;
+    z-index: 8;
+}
+
+.back_link {
     text-decoration: none;
     color: #f1f1f1;
 }
 
-.back:hover{
+.back_info {
+    margin: 0 1300px 0 0;
+    z-index: 8;
+}
+
+.back:hover {
+    cursor: pointer;
+    color: #FDE806;
+    text-shadow: 0 0 5px #FDE806, 0 0 25px #FDE806, 0 0 50px #FDE806;
+    transition: all 0.5s ease-in-out;
+}
+
+.back_destino:hover {
     cursor: pointer;
     color: #FDE806;
     text-shadow: 0 0 5px #FDE806, 0 0 25px #FDE806, 0 0 50px #FDE806;
@@ -58,7 +76,7 @@
 }
 
 .lightsaber_left {
-    position:fixed;
+    position: fixed;
     bottom: 0;
     right: 0;
     margin-top: 100px;
@@ -75,32 +93,58 @@
     position: absolute;
     right: 80px;
     bottom: 47px;
-    border-radius: 10px 0 0 10px ;
+    border-radius: 10px 0 0 10px;
     width: 0px;
     height: 10px;
 
     transition: 0.5s width;
 }
 
-.lightsaber_left img#luke:hover ~.plasma {
+.lightsaber_left img#luke:hover~.plasma {
     width: 250px;
     background: #00FF00;
     box-shadow: 0px 0px 20px #00FF00;
 }
 
-.forward{
+.forward {
+    width: 50px;
+    margin: 0 30px 0 0;
+    z-index: 9;
+}
+
+.forward_destino {
+    width: 150px;
     margin: 0 20px 0 0;
     z-index: 9;
 }
 
-.forward_link{
+.forward_info {
+    width: 80px;
+    margin: 0 20px 0 0;
+    z-index: 9;
+}
+
+.forward_link {
     text-decoration: none;
     color: white;
 }
 
-.forward:hover{
+.forward:hover {
     cursor: pointer;
     color: #FDE806;
     text-shadow: 0 0 5px #FDE806, 0 0 25px #FDE806, 0 0 50px #FDE806;
     transition: all 0.5s ease-in-out;
+}
+
+.forward_destino:hover {
+    cursor: pointer;
+    color: #FDE806;
+    text-shadow: 0 0 5px #FDE806, 0 0 25px #FDE806, 0 0 50px #FDE806;
+    transition: all 0.5s ease-in-out;
+}
+
+.forward_info:hover {
+    width: 80px;
+    margin: 0 20px 0 0;
+    z-index: 9;
 }

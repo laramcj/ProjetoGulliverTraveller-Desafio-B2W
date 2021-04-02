@@ -10,7 +10,7 @@ body {
 
 .back__bordo {
     width: 100%;
-    height: calc(100% - 140px);
+    /* height: calc(100% - 140px); */
 }
 
 .img__airbus {

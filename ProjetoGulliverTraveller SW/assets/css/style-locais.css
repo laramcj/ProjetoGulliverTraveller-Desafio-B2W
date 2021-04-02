@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    background-color: #040404;
+}
+
+/* CONTEÚDO DA PÁGINA */
+
+.container_destino {
+    background-color: #ffebb808;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.box_images {
+    height: 100%;
+    padding: 10px 80px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box_text_locais {
+    border-image: linear-gradient(transparent 10%, #F9A487 10% 90%, transparent 90%) 0 0 0 1 / 3px;
+    color: white;
+    width: 500px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+
+.title {
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+    line-height: 25px;
+}
+
+.general_content {
+    margin-bottom: 20px;
+}
+
+.general_information {
+    font-size: 18px;
+    text-shadow: 0.1px 0.1px #f7c43b;
+}
